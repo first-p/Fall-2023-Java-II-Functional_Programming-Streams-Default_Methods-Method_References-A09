@@ -12,7 +12,8 @@ public class Proj09Runner {
     private String[] data;
 
     // Constructor for Proj07Runner
-    public Proj09Runner() {
+    public Proj09Runner(String[] input) {
+        data = input;
         // Print the certification statement
         System.out.println("I certify that this program is my own work\n" +
                 "and is not the work of others. I agree not\n" +
